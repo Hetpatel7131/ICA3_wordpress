@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: wordpress:latest
+        image: wordpress:11.5.1-noble-rc
         ports:
         - containerPort: 80
         env:
